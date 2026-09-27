@@ -1,4 +1,4 @@
-const wines = [
+window.WINE_DATA = [
   {
     "group": "Champagne & Sparkling",
     "vintage": "NV",
@@ -24,30 +24,17 @@ const wines = [
       "Strong luxury-hotel relevance",
       "Highly food-friendly"
     ],
-    "signature": [
-      [
-        "Deep-fried crab shell stuffed with crab meat and onion",
-        "Acidity and mousse cut through the fried shell while preserving crab sweetness."
-      ],
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Fruit meets the aromatic glaze while bubbles refresh the palate."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Deep-fried crab shell stuffed with crab meat and onion",
+      "Barbecued pork with osmanthus flower honey",
+      "Steamed shrimp dumpling with bamboo shoot (4 pieces)"
     ],
-    "dimsum": [
-      [
-        "Steamed shrimp dumpling with bamboo shoot (4 pieces)",
-        "Fine bubbles and freshness respect the delicate wrapper and shrimp."
-      ],
-      [
-        "Deep-fried crispy roll stuffed with crab meat and mayonnaise sauce (4 pieces)",
-        "Effervescence cuts through frying and mayonnaise while supporting crab sweetness."
-      ],
-      [
-        "Steamed crab meat and shrimp dumpling topped with salmon roe (3 pieces)",
-        "Saline roe and shellfish connect naturally with fresh sparkling wine."
-      ]
-    ]
+    "flagship": {
+      "dish": "Deep-fried crab shell stuffed with crab meat and onion",
+      "why": "Acidity and mousse cut through the fried shell while preserving crab sweetness."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Champagne & Sparkling",
@@ -74,30 +61,17 @@ const wines = [
       "Elegant rather than powerful",
       "Exceptional seafood compatibility"
     ],
-    "signature": [
-      [
-        "Deep-fried crab shell stuffed with crab meat and onion",
-        "Acidity and mousse cut through the fried shell while preserving crab sweetness."
-      ],
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Fruit meets the aromatic glaze while bubbles refresh the palate."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Deep-fried crab shell stuffed with crab meat and onion",
+      "Barbecued pork with osmanthus flower honey",
+      "Steamed shrimp dumpling with bamboo shoot (4 pieces)"
     ],
-    "dimsum": [
-      [
-        "Steamed shrimp dumpling with bamboo shoot (4 pieces)",
-        "Fine bubbles and freshness respect the delicate wrapper and shrimp."
-      ],
-      [
-        "Deep-fried crispy roll stuffed with crab meat and mayonnaise sauce (4 pieces)",
-        "Effervescence cuts through frying and mayonnaise while supporting crab sweetness."
-      ],
-      [
-        "Steamed crab meat and shrimp dumpling topped with salmon roe (3 pieces)",
-        "Saline roe and shellfish connect naturally with fresh sparkling wine."
-      ]
-    ]
+    "flagship": {
+      "dish": "Deep-fried crab shell stuffed with crab meat and onion",
+      "why": "Acidity and mousse cut through the fried shell while preserving crab sweetness."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Champagne & Sparkling",
@@ -124,30 +98,17 @@ const wines = [
       "Extra Brut dosage",
       "Signature Billecart-Salmon rose cuvee"
     ],
-    "signature": [
-      [
-        "Roasted goose with plum sauce",
-        "Wild strawberry and raspberry echo the plum sauce while fine acidity and mousse cut through rendered goose fat."
-      ],
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Red-fruit finesse complements the aromatic glaze while the mousse refreshes the pork richness."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Roasted goose with plum sauce",
+      "Barbecued pork with osmanthus flower honey",
+      "Baked barbecued pork bun with almond flakes (3 pieces)"
     ],
-    "dimsum": [
-      [
-        "Baked barbecued pork bun with almond flakes (3 pieces)",
-        "Red-fruit character suits the sweet barbecue filling while acidity and mousse lighten the pastry and almond."
-      ],
-      [
-        "Deep-fried crispy roll stuffed with crab meat and mayonnaise sauce (4 pieces)",
-        "Fine bubbles relieve the fried shell and mayonnaise while the wine preserves the crab's sweetness."
-      ],
-      [
-        "Steamed crab meat and shrimp dumpling topped with salmon roe (3 pieces)",
-        "Citrus freshness and delicate red fruit frame the shellfish and saline roe without overwhelming the wrapper."
-      ]
-    ]
+    "flagship": {
+      "dish": "Roasted goose with plum sauce",
+      "why": "Wild strawberry and raspberry echo the plum sauce while fine acidity and mousse cut through rendered goose fat."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Champagne & Sparkling",
@@ -174,30 +135,17 @@ const wines = [
       "Greater depth and structure",
       "Strong celebration choice"
     ],
-    "signature": [
-      [
-        "Deep-fried crab shell stuffed with crab meat and onion",
-        "Acidity and mousse cut through the fried shell while preserving crab sweetness."
-      ],
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Fruit meets the aromatic glaze while bubbles refresh the palate."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Deep-fried crab shell stuffed with crab meat and onion",
+      "Barbecued pork with osmanthus flower honey",
+      "Steamed shrimp dumpling with bamboo shoot (4 pieces)"
     ],
-    "dimsum": [
-      [
-        "Steamed shrimp dumpling with bamboo shoot (4 pieces)",
-        "Fine bubbles and freshness respect the delicate wrapper and shrimp."
-      ],
-      [
-        "Deep-fried crispy roll stuffed with crab meat and mayonnaise sauce (4 pieces)",
-        "Effervescence cuts through frying and mayonnaise while supporting crab sweetness."
-      ],
-      [
-        "Steamed crab meat and shrimp dumpling topped with salmon roe (3 pieces)",
-        "Saline roe and shellfish connect naturally with fresh sparkling wine."
-      ]
-    ]
+    "flagship": {
+      "dish": "Deep-fried crab shell stuffed with crab meat and onion",
+      "why": "Acidity and mousse cut through the fried shell while preserving crab sweetness."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Champagne & Sparkling",
@@ -224,30 +172,17 @@ const wines = [
       "Ambient-fermentation story",
       "Distinctly Chinese sparkling identity"
     ],
-    "signature": [
-      [
-        "Deep-fried crab shell stuffed with crab meat and onion",
-        "Acidity and mousse cut through the fried shell while preserving crab sweetness."
-      ],
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Fruit meets the aromatic glaze while bubbles refresh the palate."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Deep-fried crab shell stuffed with crab meat and onion",
+      "Barbecued pork with osmanthus flower honey",
+      "Steamed shrimp dumpling with bamboo shoot (4 pieces)"
     ],
-    "dimsum": [
-      [
-        "Steamed shrimp dumpling with bamboo shoot (4 pieces)",
-        "Fine bubbles and freshness respect the delicate wrapper and shrimp."
-      ],
-      [
-        "Deep-fried crispy roll stuffed with crab meat and mayonnaise sauce (4 pieces)",
-        "Effervescence cuts through frying and mayonnaise while supporting crab sweetness."
-      ],
-      [
-        "Steamed crab meat and shrimp dumpling topped with salmon roe (3 pieces)",
-        "Saline roe and shellfish connect naturally with fresh sparkling wine."
-      ]
-    ]
+    "flagship": {
+      "dish": "Deep-fried crab shell stuffed with crab meat and onion",
+      "why": "Acidity and mousse cut through the fried shell while preserving crab sweetness."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Champagne & Sparkling",
@@ -274,30 +209,17 @@ const wines = [
       "Broader and more vinous",
       "Strong gastronomic style"
     ],
-    "signature": [
-      [
-        "Deep-fried crab shell stuffed with crab meat and onion",
-        "Acidity and mousse cut through the fried shell while preserving crab sweetness."
-      ],
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Fruit meets the aromatic glaze while bubbles refresh the palate."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Deep-fried crab shell stuffed with crab meat and onion",
+      "Barbecued pork with osmanthus flower honey",
+      "Steamed shrimp dumpling with bamboo shoot (4 pieces)"
     ],
-    "dimsum": [
-      [
-        "Steamed shrimp dumpling with bamboo shoot (4 pieces)",
-        "Fine bubbles and freshness respect the delicate wrapper and shrimp."
-      ],
-      [
-        "Deep-fried crispy roll stuffed with crab meat and mayonnaise sauce (4 pieces)",
-        "Effervescence cuts through frying and mayonnaise while supporting crab sweetness."
-      ],
-      [
-        "Steamed crab meat and shrimp dumpling topped with salmon roe (3 pieces)",
-        "Saline roe and shellfish connect naturally with fresh sparkling wine."
-      ]
-    ]
+    "flagship": {
+      "dish": "Deep-fried crab shell stuffed with crab meat and onion",
+      "why": "Acidity and mousse cut through the fried shell while preserving crab sweetness."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "White",
@@ -324,30 +246,17 @@ const wines = [
       "Broad textured palate",
       "Useful with aromatic cuisine"
     ],
-    "signature": [
-      [
-        "Deep-fried crab shell stuffed with crab meat and onion",
-        "Freshness or acidity balances the fried shell while the wine has enough flavour for the crab filling."
-      ],
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Fruit and aromatic lift complement the osmanthus glaze."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Deep-fried crab shell stuffed with crab meat and onion",
+      "Barbecued pork with osmanthus flower honey",
+      "Steamed shrimp dumpling with bamboo shoot (4 pieces)"
     ],
-    "dimsum": [
-      [
-        "Steamed shrimp dumpling with bamboo shoot (4 pieces)",
-        "The wine respects the dumpling's delicacy and refreshes the sweet shellfish filling."
-      ],
-      [
-        "Steamed garoupa dumpling with X.O. sauce (3 pieces)",
-        "Aromatic intensity stands up to X.O. sauce without tannin conflict."
-      ],
-      [
-        "Deep-fried taro dumpling with scallop in coconut sauce (3 pieces)",
-        "Texture supports taro and coconut while acidity prevents heaviness."
-      ]
-    ]
+    "flagship": {
+      "dish": "Deep-fried crab shell stuffed with crab meat and onion",
+      "why": "Freshness or acidity balances the fried shell while the wine has enough flavour for the crab filling."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "White",
@@ -374,30 +283,17 @@ const wines = [
       "Nine months in used French oak barrels",
       "Distinctive modern Chinese wine story"
     ],
-    "signature": [
-      [
-        "Deep-fried shrimp toast",
-        "Grapefruit freshness cuts through the toast while dried apricot and creamy oak texture complement the sweet shrimp."
-      ],
-      [
-        "Deep-fried crab shell stuffed with crab meat and onion",
-        "The wine's citrus acidity refreshes the fried shell, while its creamy texture and used-oak complexity match the rich crab filling."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Deep-fried shrimp toast",
+      "Deep-fried crab shell stuffed with crab meat and onion",
+      "Deep-fried taro dumpling with scallop in coconut sauce (3 pieces)"
     ],
-    "dimsum": [
-      [
-        "Deep-fried taro dumpling with scallop in coconut sauce (3 pieces)",
-        "Creamy texture and gentle oak complement taro and coconut, while citrus acidity keeps the scallop vivid."
-      ],
-      [
-        "Steamed fish maw stuffed with conch in lobster sauce (2 pieces)",
-        "The wine has enough texture for fish maw and lobster sauce, with acidity preserving the conch's freshness."
-      ],
-      [
-        "Steamed shrimp dumpling with bamboo shoot (4 pieces)",
-        "Citrus lift brightens the shrimp and bamboo shoot, while the rounded palate adds more depth than a simple crisp white."
-      ]
-    ]
+    "flagship": {
+      "dish": "Deep-fried shrimp toast",
+      "why": "Grapefruit freshness cuts through the toast while dried apricot and creamy oak texture complement the sweet shrimp."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "White",
@@ -424,30 +320,17 @@ const wines = [
       "High refreshment value",
       "Excellent with shellfish"
     ],
-    "signature": [
-      [
-        "Deep-fried crab shell stuffed with crab meat and onion",
-        "Freshness or acidity balances the fried shell while the wine has enough flavour for the crab filling."
-      ],
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Fruit and aromatic lift complement the osmanthus glaze."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Deep-fried crab shell stuffed with crab meat and onion",
+      "Barbecued pork with osmanthus flower honey",
+      "Steamed shrimp dumpling with bamboo shoot (4 pieces)"
     ],
-    "dimsum": [
-      [
-        "Steamed shrimp dumpling with bamboo shoot (4 pieces)",
-        "The wine respects the dumpling's delicacy and refreshes the sweet shellfish filling."
-      ],
-      [
-        "Steamed garoupa dumpling with X.O. sauce (3 pieces)",
-        "Aromatic intensity stands up to X.O. sauce without tannin conflict."
-      ],
-      [
-        "Deep-fried taro dumpling with scallop in coconut sauce (3 pieces)",
-        "Texture supports taro and coconut while acidity prevents heaviness."
-      ]
-    ]
+    "flagship": {
+      "dish": "Deep-fried crab shell stuffed with crab meat and onion",
+      "why": "Freshness or acidity balances the fried shell while the wine has enough flavour for the crab filling."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "White",
@@ -474,30 +357,17 @@ const wines = [
       "Long ageing potential",
       "Outstanding Cantonese-food compatibility"
     ],
-    "signature": [
-      [
-        "Deep-fried crab shell stuffed with crab meat and onion",
-        "Freshness or acidity balances the fried shell while the wine has enough flavour for the crab filling."
-      ],
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Fruit and aromatic lift complement the osmanthus glaze."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Deep-fried crab shell stuffed with crab meat and onion",
+      "Barbecued pork with osmanthus flower honey",
+      "Steamed shrimp dumpling with bamboo shoot (4 pieces)"
     ],
-    "dimsum": [
-      [
-        "Steamed shrimp dumpling with bamboo shoot (4 pieces)",
-        "The wine respects the dumpling's delicacy and refreshes the sweet shellfish filling."
-      ],
-      [
-        "Steamed garoupa dumpling with X.O. sauce (3 pieces)",
-        "Aromatic intensity stands up to X.O. sauce without tannin conflict."
-      ],
-      [
-        "Deep-fried taro dumpling with scallop in coconut sauce (3 pieces)",
-        "Texture supports taro and coconut while acidity prevents heaviness."
-      ]
-    ]
+    "flagship": {
+      "dish": "Deep-fried crab shell stuffed with crab meat and onion",
+      "why": "Freshness or acidity balances the fried shell while the wine has enough flavour for the crab filling."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "White",
@@ -524,30 +394,17 @@ const wines = [
       "Elegant mineral style",
       "Prestigious seafood pairing"
     ],
-    "signature": [
-      [
-        "Deep-fried crab shell stuffed with crab meat and onion",
-        "Freshness or acidity balances the fried shell while the wine has enough flavour for the crab filling."
-      ],
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Fruit and aromatic lift complement the osmanthus glaze."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Deep-fried crab shell stuffed with crab meat and onion",
+      "Barbecued pork with osmanthus flower honey",
+      "Steamed shrimp dumpling with bamboo shoot (4 pieces)"
     ],
-    "dimsum": [
-      [
-        "Steamed shrimp dumpling with bamboo shoot (4 pieces)",
-        "The wine respects the dumpling's delicacy and refreshes the sweet shellfish filling."
-      ],
-      [
-        "Steamed garoupa dumpling with X.O. sauce (3 pieces)",
-        "Aromatic intensity stands up to X.O. sauce without tannin conflict."
-      ],
-      [
-        "Deep-fried taro dumpling with scallop in coconut sauce (3 pieces)",
-        "Texture supports taro and coconut while acidity prevents heaviness."
-      ]
-    ]
+    "flagship": {
+      "dish": "Deep-fried crab shell stuffed with crab meat and onion",
+      "why": "Freshness or acidity balances the fried shell while the wine has enough flavour for the crab filling."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Rose",
@@ -574,30 +431,17 @@ const wines = [
       "Asian fine-wine story",
       "Versatile with dim sum"
     ],
-    "signature": [
-      [
-        "Deep-fried crab shell stuffed with crab meat and onion",
-        "Freshness or acidity balances the fried shell while the wine has enough flavour for the crab filling."
-      ],
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Fruit and aromatic lift complement the osmanthus glaze."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Deep-fried crab shell stuffed with crab meat and onion",
+      "Barbecued pork with osmanthus flower honey",
+      "Steamed shrimp dumpling with bamboo shoot (4 pieces)"
     ],
-    "dimsum": [
-      [
-        "Steamed shrimp dumpling with bamboo shoot (4 pieces)",
-        "The wine respects the dumpling's delicacy and refreshes the sweet shellfish filling."
-      ],
-      [
-        "Steamed garoupa dumpling with X.O. sauce (3 pieces)",
-        "Aromatic intensity stands up to X.O. sauce without tannin conflict."
-      ],
-      [
-        "Deep-fried taro dumpling with scallop in coconut sauce (3 pieces)",
-        "Texture supports taro and coconut while acidity prevents heaviness."
-      ]
-    ]
+    "flagship": {
+      "dish": "Deep-fried crab shell stuffed with crab meat and onion",
+      "why": "Freshness or acidity balances the fried shell while the wine has enough flavour for the crab filling."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Red",
@@ -624,22 +468,17 @@ const wines = [
       "Approachable premium red",
       "Strong roasted-meat compatibility"
     ],
-    "signature": [
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Ripe fruit complements the glaze while acidity and tannin manage pork richness."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Barbecued pork with osmanthus flower honey",
+      "Pan-fried minced Wagyu beef cake with water chestnut (3 pieces)",
+      "Baked barbecued pork bun with almond flakes (3 pieces)"
     ],
-    "dimsum": [
-      [
-        "Pan-fried minced Wagyu beef cake with water chestnut (3 pieces)",
-        "The beef softens tannin while the wine supports the savoury filling."
-      ],
-      [
-        "Baked barbecued pork bun with almond flakes (3 pieces)",
-        "Fruit and spice connect with the sweet barbecue filling and almond."
-      ]
-    ]
+    "flagship": {
+      "dish": "Barbecued pork with osmanthus flower honey",
+      "why": "Ripe fruit complements the glaze while acidity and tannin manage pork richness."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Red",
@@ -666,22 +505,17 @@ const wines = [
       "Fragrant red fruit",
       "Excellent with duck and mushrooms"
     ],
-    "signature": [
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Ripe fruit complements the glaze while acidity and tannin manage pork richness."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Barbecued pork with osmanthus flower honey",
+      "Pan-fried minced Wagyu beef cake with water chestnut (3 pieces)",
+      "Steamed garoupa dumpling with X.O. sauce (3 pieces)"
     ],
-    "dimsum": [
-      [
-        "Pan-fried minced Wagyu beef cake with water chestnut (3 pieces)",
-        "Fine tannin and fresh red fruit suit the beef without overwhelming water chestnut."
-      ],
-      [
-        "Steamed garoupa dumpling with X.O. sauce (3 pieces)",
-        "A lighter red can work with the savoury X.O. component when served slightly cool."
-      ]
-    ]
+    "flagship": {
+      "dish": "Barbecued pork with osmanthus flower honey",
+      "why": "Ripe fruit complements the glaze while acidity and tannin manage pork richness."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Red",
@@ -708,22 +542,17 @@ const wines = [
       "Food-friendly acidity",
       "Strong ageing potential"
     ],
-    "signature": [
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Ripe fruit complements the glaze while acidity and tannin manage pork richness."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Barbecued pork with osmanthus flower honey",
+      "Pan-fried minced Wagyu beef cake with water chestnut (3 pieces)",
+      "Baked barbecued pork bun with almond flakes (3 pieces)"
     ],
-    "dimsum": [
-      [
-        "Pan-fried minced Wagyu beef cake with water chestnut (3 pieces)",
-        "The beef softens tannin while the wine supports the savoury filling."
-      ],
-      [
-        "Baked barbecued pork bun with almond flakes (3 pieces)",
-        "Fruit and spice connect with the sweet barbecue filling and almond."
-      ]
-    ]
+    "flagship": {
+      "dish": "Barbecued pork with osmanthus flower honey",
+      "why": "Ripe fruit complements the glaze while acidity and tannin manage pork richness."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Red",
@@ -750,22 +579,17 @@ const wines = [
       "Strong with Wagyu",
       "Important Chinese fine-wine story"
     ],
-    "signature": [
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Ripe fruit complements the glaze while acidity and tannin manage pork richness."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Barbecued pork with osmanthus flower honey",
+      "Pan-fried minced Wagyu beef cake with water chestnut (3 pieces)",
+      "Baked barbecued pork bun with almond flakes (3 pieces)"
     ],
-    "dimsum": [
-      [
-        "Pan-fried minced Wagyu beef cake with water chestnut (3 pieces)",
-        "The beef softens tannin while the wine supports the savoury filling."
-      ],
-      [
-        "Baked barbecued pork bun with almond flakes (3 pieces)",
-        "Fruit and spice connect with the sweet barbecue filling and almond."
-      ]
-    ]
+    "flagship": {
+      "dish": "Barbecued pork with osmanthus flower honey",
+      "why": "Ripe fruit complements the glaze while acidity and tannin manage pork richness."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Red",
@@ -792,22 +616,17 @@ const wines = [
       "Native-fermentation philosophy",
       "Long ageing potential"
     ],
-    "signature": [
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Ripe fruit complements the glaze while acidity and tannin manage pork richness."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Barbecued pork with osmanthus flower honey",
+      "Pan-fried minced Wagyu beef cake with water chestnut (3 pieces)",
+      "Baked barbecued pork bun with almond flakes (3 pieces)"
     ],
-    "dimsum": [
-      [
-        "Pan-fried minced Wagyu beef cake with water chestnut (3 pieces)",
-        "The beef softens tannin while the wine supports the savoury filling."
-      ],
-      [
-        "Baked barbecued pork bun with almond flakes (3 pieces)",
-        "Fruit and spice connect with the sweet barbecue filling and almond."
-      ]
-    ]
+    "flagship": {
+      "dish": "Barbecued pork with osmanthus flower honey",
+      "why": "Ripe fruit complements the glaze while acidity and tannin manage pork richness."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Red",
@@ -834,22 +653,17 @@ const wines = [
       "Earthy and floral",
       "Premium duck and mushroom pairing"
     ],
-    "signature": [
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Ripe fruit complements the glaze while acidity and tannin manage pork richness."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Barbecued pork with osmanthus flower honey",
+      "Pan-fried minced Wagyu beef cake with water chestnut (3 pieces)",
+      "Steamed garoupa dumpling with X.O. sauce (3 pieces)"
     ],
-    "dimsum": [
-      [
-        "Pan-fried minced Wagyu beef cake with water chestnut (3 pieces)",
-        "Fine tannin and fresh red fruit suit the beef without overwhelming water chestnut."
-      ],
-      [
-        "Steamed garoupa dumpling with X.O. sauce (3 pieces)",
-        "A lighter red can work with the savoury X.O. component when served slightly cool."
-      ]
-    ]
+    "flagship": {
+      "dish": "Barbecued pork with osmanthus flower honey",
+      "why": "Ripe fruit complements the glaze while acidity and tannin manage pork richness."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Red",
@@ -876,22 +690,17 @@ const wines = [
       "Classified Bordeaux prestige",
       "Excellent with Wagyu"
     ],
-    "signature": [
-      [
-        "Barbecued pork with osmanthus flower honey",
-        "Ripe fruit complements the glaze while acidity and tannin manage pork richness."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Barbecued pork with osmanthus flower honey",
+      "Pan-fried minced Wagyu beef cake with water chestnut (3 pieces)",
+      "Baked barbecued pork bun with almond flakes (3 pieces)"
     ],
-    "dimsum": [
-      [
-        "Pan-fried minced Wagyu beef cake with water chestnut (3 pieces)",
-        "The beef softens tannin while the wine supports the savoury filling."
-      ],
-      [
-        "Baked barbecued pork bun with almond flakes (3 pieces)",
-        "Fruit and spice connect with the sweet barbecue filling and almond."
-      ]
-    ]
+    "flagship": {
+      "dish": "Barbecued pork with osmanthus flower honey",
+      "why": "Ripe fruit complements the glaze while acidity and tannin manage pork richness."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Dessert",
@@ -918,22 +727,17 @@ const wines = [
       "Peach and floral perfume",
       "Excellent with fruit desserts"
     ],
-    "signature": [
-      [
-        "Double-boiled milk pudding with peach gum and honey rose",
-        "The wine's perfume and sweetness complement the creamy honey-rose profile."
-      ],
-      [
-        "Chilled mango cream with sago and pomelo",
-        "Fruit intensity supports mango while acidity refreshes the pomelo finish."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Double-boiled milk pudding with peach gum and honey rose",
+      "Chilled mango cream with sago and pomelo",
+      "Baked puff with hawthorn paste (3 pieces)"
     ],
-    "dimsum": [
-      [
-        "Baked puff with hawthorn paste (3 pieces)",
-        "Sweetness softens hawthorn tartness and echoes the baked pastry."
-      ]
-    ]
+    "flagship": {
+      "dish": "Double-boiled milk pudding with peach gum and honey rose",
+      "why": "The wine's perfume and sweetness complement the creamy honey-rose profile."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Dessert",
@@ -960,22 +764,17 @@ const wines = [
       "Long ageing potential",
       "Strong with creamy desserts"
     ],
-    "signature": [
-      [
-        "Double-boiled milk pudding with peach gum and honey rose",
-        "The wine's perfume and sweetness complement the creamy honey-rose profile."
-      ],
-      [
-        "Chilled mango cream with sago and pomelo",
-        "Fruit intensity supports mango while acidity refreshes the pomelo finish."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Double-boiled milk pudding with peach gum and honey rose",
+      "Chilled mango cream with sago and pomelo",
+      "Baked puff with hawthorn paste (3 pieces)"
     ],
-    "dimsum": [
-      [
-        "Baked puff with hawthorn paste (3 pieces)",
-        "Sweetness softens hawthorn tartness and echoes the baked pastry."
-      ]
-    ]
+    "flagship": {
+      "dish": "Double-boiled milk pudding with peach gum and honey rose",
+      "why": "The wine's perfume and sweetness complement the creamy honey-rose profile."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   },
   {
     "group": "Dessert",
@@ -1002,21 +801,16 @@ const wines = [
       "Chinese sweet-wine identity",
       "Good with baked and floral desserts"
     ],
-    "signature": [
-      [
-        "Double-boiled milk pudding with peach gum and honey rose",
-        "The wine's perfume and sweetness complement the creamy honey-rose profile."
-      ],
-      [
-        "Chilled mango cream with sago and pomelo",
-        "Fruit intensity supports mango while acidity refreshes the pomelo finish."
-      ]
+    "bestwith": "Selected Cantonese dishes matched to the wine’s structure, flavour profile and service style.",
+    "bestdishes": [
+      "Double-boiled milk pudding with peach gum and honey rose",
+      "Chilled mango cream with sago and pomelo",
+      "Baked puff with hawthorn paste (3 pieces)"
     ],
-    "dimsum": [
-      [
-        "Baked puff with hawthorn paste (3 pieces)",
-        "Sweetness softens hawthorn tartness and echoes the baked pastry."
-      ]
-    ]
+    "flagship": {
+      "dish": "Double-boiled milk pudding with peach gum and honey rose",
+      "why": "The wine's perfume and sweetness complement the creamy honey-rose profile."
+    },
+    "whywins": "The pairing is selected for its balance of flavour intensity, freshness, texture and cooking method."
   }
-]; let current = 1; const nav = document.getElementById('nav'), main = document.getElementById('main'), q = document.getElementById('q'); const esc = s => String(s).replace(/[&<>"']/g, m => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[m])); function navRender() {let query = q.value.toLowerCase(); nav.innerHTML = '';[...new Set(wines.map(x => x.group))].forEach(g => {let arr = wines.map((x, i) => [x, i]).filter(([x]) => x.group === g && x.name.toLowerCase().includes(query)); if (!arr.length) return; nav.insertAdjacentHTML('beforeend', `<div class="group">${esc(g)} · ${arr.length}</div>`); arr.forEach(([x, i]) => nav.insertAdjacentHTML('beforeend', `<button class="nav ${i === current ? 'active' : ''}" onclick="current=${i};render();navRender()">${esc(x.vintage)} · ${esc(x.name)}</button>`))})} function box(t, c, cls = '') {return `<div class="mini ${cls}"><b>${esc(t)}</b>${c}</div>`} function render() {const x = wines[current]; main.innerHTML = `<section class="hero"><div class="kicker">V12 · Tier 1 Core Knowledge</div><h2>${esc(x.name)}</h2><div class="sub">${esc(x.vintage)}</div></section><section class="card"><div class="facts"><div class="fact"><b>Region</b>${esc(x.region)}</div><div class="fact"><b>Grape Variety</b>${esc(x.grape)}</div><div class="fact"><b>Style</b>${esc(x.style)}</div></div><h3>Why It Matters</h3><p>${esc(x.why)}</p><h3>Tasting Profile</h3><div class="taste">${box('Appearance', esc(x.appearance))}${box('Aromas', esc(x.aromas))}${box('Palate', esc(x.palate))}${box('Guest-Friendly Description', esc(x.guest))}</div></section><details><summary>Tier 2 · Tin Lung Heen Pairings</summary><div class="inside"><h3>Signature Pairings</h3>${x.signature.map(z => `<div class="pair"><div class="pairname">★ ${esc(z[0])}</div><div>${esc(z[1])}</div></div>`).join('')}<h3>Dim Sum Pairings</h3>${x.dimsum.map(z => `<div class="pair"><div class="pairname">${esc(z[0])}</div><div>${esc(z[1])}</div></div>`).join('')}<h3>Why It Works</h3><p>Pairings are selected through acidity, tannin, sweetness, alcohol, body, mousse, umami, fat and cooking method. Signature dishes are prioritised when the match is genuinely strong; dim sum wording follows the current Tin Lung Heen menu.</p></div></details><details><summary>Tier 3 · Professional Knowledge</summary><div class="inside"><div class="progrid">${box('Producer Story', esc(x.story), 'wide')}${box('Why This Wine Matters', esc(x.matters))}${box('Why It Is On The Tin Lung Heen List', esc(x.list))}${box('Guest Profile', esc(x.guestprofile))}${box('Service Strategy', esc(x.strategy))}${box('Ageing Potential', esc(x.age))}<div class="mini"><b>Key Selling Points</b><ul class="points">${x.points.map(p => `<li>${esc(p)}</li>`).join('')}</ul></div></div></div></details>`; window.scrollTo({top: 0, behavior: 'smooth'})} q.oninput = navRender; navRender(); render();
+];

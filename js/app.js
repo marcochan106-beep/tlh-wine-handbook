@@ -81,6 +81,15 @@ function selectWine(index) {
   }
 }
 
+function backToList() {
+  const listTarget = document.querySelector(".side") || nav;
+
+  listTarget.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+}
+
 function renderWine() {
   const wine = wines[current];
 
@@ -170,6 +179,16 @@ function renderWine() {
         </div>
       </div>
     </details>
+
+    <button
+      id="backToListBtn"
+      class="back-to-list"
+      type="button"
+      onclick="backToList()"
+      aria-label="Back to wine list"
+    >
+      ↑ Wine List
+    </button>
   `;
 
 }

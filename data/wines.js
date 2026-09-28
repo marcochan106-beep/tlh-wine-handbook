@@ -189,25 +189,25 @@ window.WINE_DATA = [
     "vintage": "2018",
     "name": "Wiston Estate Blanc de Noirs Brut",
     "region": "West Sussex, England",
-    "grape": "Pinot Noir and Pinot Meunier",
+    "grape": "100% Pinot Noir",
     "style": "Vintage English Blanc de Noirs sparkling wine",
-    "why": "A broad, vinous English sparkling wine combining dark-grape weight with cool-climate acidity.",
+    "why": "A rich, vinous English sparkling wine combining Pinot Noir depth with electric cool-climate acidity.",
     "appearance": "Pale gold with a persistent mousse.",
     "aromas": "Baked pear, toasted almond and croissant.",
     "palate": "Full-bodied and creamy, with electric acidity and a long savoury finish.",
     "guest": "A rich English sparkling wine with baked pear, toasted almond and croissant.",
-    "story": "Wiston Estate is rooted in the South Downs of Sussex and has become associated with serious traditional-method English sparkling wine.",
-    "matters": "It demonstrates England's ability to produce age-worthy sparkling wine and offers a darker-fruited alternative to Chardonnay-led Champagne.",
-    "list": "Its broader texture supports richer dim sum and roasted flavours while retaining the acidity needed for Cantonese cuisine.",
-    "guestprofile": "English-wine explorers, Pinot-led Champagne drinkers and guests seeking a fuller sparkling style.",
-    "strategy": "Recommend with richer fried or pork dishes. Describe Blanc de Noirs clearly as white sparkling wine made from dark grapes.",
-    "age": "The 2018 vintage has development potential; ageing may add toast, nuts and savoury depth.",
+    "story": "Wiston Estate is rooted in the South Downs of Sussex. This single-vineyard Blanc de Noirs is made from 100% Pinot Noir from Wiston's original vineyard, fermented in mature French oak and aged for four to five years on lees.",
+    "matters": "It demonstrates England's ability to produce age-worthy, gastronomic sparkling wine from 100% Pinot Noir.",
+    "list": "Its broad texture, autolytic richness and bright acidity support roasted pork, preserved-meat flavours and crisp pastry.",
+    "guestprofile": "English-wine explorers, Pinot Noir Champagne drinkers and guests seeking a fuller sparkling style.",
+    "strategy": "Recommend with richer fried or pork dishes. Describe Blanc de Noirs clearly as white sparkling wine made entirely from Pinot Noir.",
+    "age": "Ready to drink, with capacity for further development if stored properly; ageing may add more toast, nuts and savoury depth.",
     "points": [
       "West Sussex origin",
-      "Pinot Noir and Pinot Meunier",
-      "Traditional-method sparkling",
-      "Broader and more vinous",
-      "Strong gastronomic style"
+      "100% Pinot Noir",
+      "Single-vineyard fruit from Wiston’s original vineyard",
+      "Fermented in mature French oak",
+      "Four to five years ageing on lees"
     ],
     "bestwith": "Roasted pork, preserved-meat flavours and crisp pastry that suit generous fruit, autolytic richness and cool-climate acidity.",
     "bestdishes": [
@@ -219,7 +219,7 @@ window.WINE_DATA = [
       "dish": "Roasted crispy suckling pig served with Chinese puff",
       "why": "Baked pear and croissant complement the sweet pork and Chinese puff, while toasted-almond richness meets the crisp skin and bright acidity clears the fat."
     },
-    "whywins": "Its Pinot breadth and croissant-like richness match roasted flavours, while firm acidity preserves refreshment."
+    "whywins": "Its autolytic richness and bright acidity match roasted flavours while preserving freshness."
   },
   {
     "group": "White",

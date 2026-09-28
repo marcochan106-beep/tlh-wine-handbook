@@ -55,7 +55,7 @@ function renderNavigation() {
           <button
             class="nav ${index === current ? "active" : ""}"
             type="button"
-            onclick="current=${index}; renderWine(); renderNavigation();"
+            onclick="selectWine(${index})"
           >
             ${escapeHtml(wine.vintage)} · ${escapeHtml(wine.name)}
           </button>
@@ -63,6 +63,22 @@ function renderNavigation() {
       );
     });
   });
+}
+
+function selectWine(index) {
+  current = index;
+  renderWine();
+  renderNavigation();
+
+  // On mobile, move from the wine list to the newly rendered details.
+  if (window.matchMedia("(max-width: 860px)").matches) {
+    window.setTimeout(() => {
+      main.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }, 100);
+  }
 }
 
 function renderWine() {
@@ -156,7 +172,6 @@ function renderWine() {
     </details>
   `;
 
-  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 searchInput.addEventListener("input", renderNavigation);

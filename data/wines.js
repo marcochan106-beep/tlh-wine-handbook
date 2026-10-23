@@ -222,6 +222,43 @@ window.WINE_DATA = [
     "whywins": "Its autolytic richness and bright acidity match roasted flavours while preserving freshness."
   },
   {
+    "group": "Champagne & Sparkling",
+    "vintage": "2023",
+    "name": "Romain Henin La Bulle Libre L'Odyssee Petillante Chapitre 2",
+    "region": "Champagne, France",
+    "grape": "50% Pinot Noir, 40% Pinot Meunier and 10% Chardonnay",
+    "style": "Organic and biodynamic Brut Nature Champagne",
+    "why": "A distinctive grower Champagne combining a Pinot Noir-led blend, zero dosage, certified organic and biodynamic viticulture, and traditional-method winemaking.",
+    "appearance": "Pale gold with fine, persistent bubbles.",
+    "aromas": "Ripe citrus, baked pear and almond.",
+    "palate": "Dry and energetic, with fine mousse, bright acidity and a long saline finish.",
+    "guest": "An energetic grower Champagne with ripe citrus, baked pear and almond characters.",
+    "story": "Romain Henin represents a new generation of independent Champagne growers, producing site-focused wines from certified organic and biodynamic vineyards with no added sulphites and a strong emphasis on vineyard expression.",
+    "matters": "It gives the programme a grower-Champagne story centred on organic and biodynamic viticulture, zero dosage and vineyard expression rather than house style.",
+    "list": "Placed after Wiston Blanc de Noirs, it extends the Pinot-led sparkling sequence into a drier and more individual grower-Champagne expression.",
+    "guestprofile": "Grower-Champagne enthusiasts, natural-wine drinkers and guests seeking a dry, characterful alternative to established Champagne houses.",
+    "strategy": "Present it as a traditional-method Brut Nature grower Champagne. Lead with organic and biodynamic certification, zero dosage and its Pinot Noir-led blend; do not describe it as pet-nat.",
+    "age": "Enjoy for its present energy and purity; short cellaring may further integrate its savoury and barrel-derived elements.",
+    "points": [
+      "50% Pinot Noir, 40% Pinot Meunier and 10% Chardonnay",
+      "Brut Nature (zero dosage)",
+      "Certified organic",
+      "Certified biodynamic",
+      "No added sulphites"
+    ],
+    "bestwith": "Crisp fried seafood, roasted pork and savoury dim sum where fine mousse, saline freshness and zero-dosage precision can remain visible.",
+    "bestdishes": [
+      "Deep-fried shrimp toast",
+      "Roasted crispy suckling pig served with Chinese puff",
+      "Pan-fried turnip cake with minced preserved meat (6 pieces)"
+    ],
+    "flagship": {
+      "dish": "Deep-fried shrimp toast",
+      "why": "Fine mousse and saline acidity cut through the fried toast, while ripe-citrus fruit preserves the sweetness of the shrimp without adding weight."
+    },
+    "whywins": "Its zero-dosage precision, saline freshness and fine mousse excel with crisp fried textures while preserving flavour detail."
+  },
+  {
     "group": "White",
     "vintage": "2023",
     "name": "Barmes-Buecher Rosenberg Gewurztraminer",
@@ -334,40 +371,40 @@ window.WINE_DATA = [
   },
   {
     "group": "White",
-    "vintage": "2021",
-    "name": "Villa Maria Taylors Pass Sauvignon Blanc",
-    "region": "Awatere Valley, Marlborough, New Zealand",
+    "vintage": "2023",
+    "name": "Xige Estate Jade Dove Single Vineyard Sauvignon Blanc",
+    "region": "Helan Mountain East, Ningxia, China",
     "grape": "100% Sauvignon Blanc",
     "style": "Single-vineyard dry white",
-    "why": "A focused Marlborough Sauvignon Blanc with herbal intensity, citrus precision and a saline finish.",
+    "why": "A single-vineyard Ningxia Sauvignon Blanc combining vivid varietal fruit with a focused expression of Xige Estate's Dove Mountain site.",
     "appearance": "Pale lemon with green highlights.",
-    "aromas": "Gooseberry, passionfruit and grass.",
-    "palate": "Pure and concentrated, with finely woven acidity and a long finish.",
-    "guest": "Focused Sauvignon Blanc with gooseberry, passionfruit and grass characters.",
-    "story": "Villa Maria was founded in 1961 and Taylors Pass represents its single-vineyard approach in the cooler Awatere Valley.",
-    "matters": "It shows the more serious, site-driven side of Marlborough Sauvignon Blanc beyond simple tropical fruit.",
-    "list": "Its herbal freshness and salinity are highly effective with seafood dim sum and X.O.-accented flavours.",
-    "guestprofile": "Marlborough Sauvignon Blanc drinkers, guests who enjoy herbal freshness and seafood-focused tables.",
-    "strategy": "Recommend when guests ask for crisp, aromatic white wine. Avoid with very sweet dishes or guests seeking creamy oak.",
-    "age": "Best now for freshness, though limited bottle development can bring savoury complexity.",
+    "aromas": "Passion fruit, lime and fresh herbs.",
+    "palate": "Dry and vibrant, with refreshing acidity and a clean, persistent finish.",
+    "guest": "A vibrant single-vineyard Sauvignon Blanc with passion fruit, lime and fresh herbs characters.",
+    "story": "Jade Dove belongs to Xige Estate's single-vineyard range, created to explore individual grape varieties through the distinctive terroir of Dove Mountain in Ningxia.",
+    "matters": "It demonstrates that Ningxia can produce a site-specific, internationally recognisable Sauvignon Blanc while strengthening the programme's Chinese fine-wine identity.",
+    "list": "It replaces Villa Maria with a single-vineyard Chinese Sauvignon Blanc, preserving a crisp aromatic style while adding greater local relevance.",
+    "guestprofile": "Sauvignon Blanc drinkers, Chinese-wine explorers and guests seeking a crisp aromatic white for seafood and vegetable dishes.",
+    "strategy": "Lead with its single-vineyard origin and recognisable Sauvignon Blanc freshness. Recommend for guests who enjoyed the former Villa Maria slot but are open to a Chinese expression.",
+    "age": "Best enjoyed young while its citrus, passion-fruit and herbal character remains vivid.",
     "points": [
-      "Single-vineyard Awatere Sauvignon Blanc",
-      "Villa Maria founded in 1961",
-      "Herbal and saline style",
-      "High refreshment value",
-      "Excellent with shellfish"
+      "Single-vineyard Ningxia Sauvignon Blanc",
+      "Dove Mountain origin",
+      "100% Sauvignon Blanc",
+      "Fresh aromatic profile",
+      "Modern Chinese fine-wine story"
     ],
-    "bestwith": "Shellfish with chives, garlic, bell pepper or X.O. sauce where herbal intensity and salinity provide a direct flavour bridge.",
+    "bestwith": "Shellfish, steamed seafood and delicately seasoned vegetables where citrus freshness and herbal lift can complement rather than dominate the dish.",
     "bestdishes": [
-      "Wok-fried razor clam with chives and sliced garlic",
-      "Wok-fried conch with bell pepper in X.O. sauce (Seasonal specialty)",
-      "Wok-fried yellow fungus with fresh lotus seeds, lily bulbs and snow pea served in golden crispy nest"
+      "Steamed shrimp dumpling with bamboo shoot (4 pieces)",
+      "Steamed garoupa dumpling with X.O. sauce (3 pieces)",
+      "Wok-fried razor clam with chives and sliced garlic"
     ],
     "flagship": {
-      "dish": "Wok-fried razor clam with chives and sliced garlic",
-      "why": "Gooseberry, passionfruit and grassy notes align with chives and garlic while refreshing the razor clam’s firm texture."
+      "dish": "Steamed garoupa dumpling with X.O. sauce (3 pieces)",
+      "why": "Passion fruit and lime add brightness to the sweet garoupa, while fresh-herbal notes lift the X.O. seasoning without overwhelming the dumpling."
     },
-    "whywins": "The wine is the list’s specialist for assertive green aromatics and savoury shellfish."
+    "whywins": "Its freshness, citrus lift and restrained herbal character support delicate seafood while preserving Cantonese flavour precision."
   },
   {
     "group": "White",
@@ -408,40 +445,40 @@ window.WINE_DATA = [
   },
   {
     "group": "White",
-    "vintage": "2022",
-    "name": "Domaine Paul Pernot Puligny-Montrachet",
-    "region": "Burgundy, France",
+    "vintage": "2020",
+    "name": "Domaine William Fevre Chablis Grand Cru Les Preuses",
+    "region": "Chablis Grand Cru, Burgundy, France",
     "grape": "100% Chardonnay",
-    "style": "Village white Burgundy",
-    "why": "A restrained, classical Puligny focused on white fruit, texture and chalky precision rather than overt oak.",
-    "appearance": "Pale to medium lemon-gold.",
-    "aromas": "Flint, white flowers and Granny Smith apple.",
-    "palate": "Rounded and textured, with fresh acidity and a long finish.",
-    "guest": "Elegant white Burgundy with flint, white flowers and Granny Smith apple characters.",
-    "story": "The Pernot family has deep holdings in Puligny-Montrachet. The domaine is known for traditional, unflashy Chardonnay with restrained new oak.",
-    "matters": "Puligny-Montrachet is one of the reference points for fine Chardonnay and gives the list a globally recognised white Burgundy style.",
-    "list": "Its combination of texture, acidity and subtle oak suits richer seafood and premium dim sum without becoming heavy.",
-    "guestprofile": "White Burgundy drinkers, Chardonnay lovers and guests wanting a prestigious dry white with restrained oak.",
-    "strategy": "Recommend with rich shellfish and fried crab preparations. Do not sell it primarily as buttery Chardonnay; emphasise precision and minerality.",
-    "age": "Drinking well now with potential for further nutty, honeyed and savoury development; storage provenance is important.",
+    "style": "Chablis Grand Cru",
+    "why": "A refined Grand Cru Chablis from Les Preuses, combining mineral intensity, concentrated Chardonnay fruit and exceptional precision.",
+    "appearance": "Pale gold with green highlights.",
+    "aromas": "Lime, oyster shell and white flowers.",
+    "palate": "Full-bodied yet precise, with vibrant acidity and a long saline finish.",
+    "guest": "A refined Chablis Grand Cru with lime, oyster shell and white flowers characters.",
+    "story": "Domaine William Fevre is a benchmark Chablis producer with extensive Premier and Grand Cru holdings. Les Preuses is known for combining depth and power with a distinctly refined mineral profile.",
+    "matters": "It moves the Burgundy position from village Puligny-Montrachet to Chablis Grand Cru, giving the programme greater vineyard hierarchy and a more saline expression of Chardonnay.",
+    "list": "It replaces Paul Pernot Puligny-Montrachet with a Grand Cru Chablis whose acidity, concentration and salinity are highly effective with premium Cantonese seafood.",
+    "guestprofile": "Chablis and white Burgundy enthusiasts, collectors and guests seeking a prestigious Chardonnay for shellfish and refined seafood.",
+    "strategy": "Lead with Grand Cru status, Les Preuses and William Fevre's precision. Serve around 12 C in a generous white-wine glass and avoid over-chilling.",
+    "age": "Drinking with youthful intensity, with capacity to develop greater smoke, beeswax and savoury complexity through careful cellaring.",
     "points": [
-      "Puligny-Montrachet pedigree",
+      "Chablis Grand Cru",
+      "Les Preuses vineyard",
       "100% Chardonnay",
-      "Restrained oak",
-      "Elegant mineral style",
-      "Prestigious seafood pairing"
+      "Benchmark William Fevre estate",
+      "Concentrated, saline and age-worthy"
     ],
-    "bestwith": "Luxury crab, scallop and bird’s-nest dishes where restrained oak, flinty freshness and bright apple character can balance creamy texture.",
+    "bestwith": "Premium shellfish, crab and refined seafood preparations where Grand Cru concentration, oyster-shell salinity and vibrant acidity can preserve flavour detail.",
     "bestdishes": [
-      "Deep-fried crab shell stuffed with crab meat and onion",
-      "Pan-fried scallop with salmon roe, white asparagus and minced garoupa",
-      "Braised superior bird’s nest with boneless crab claw in fish soup"
+      "Steamed crab claw with egg white in Huadiao wine",
+      "Sautéed lobster with mushroom and yellow carrot",
+      "Deep-fried crab shell stuffed with crab meat and onion"
     ],
     "flagship": {
-      "dish": "Deep-fried crab shell stuffed with crab meat and onion",
-      "why": "Flint and white flowers bring lift to the sweet crab meat, while Granny Smith apple freshness cuts through the fried shell and onion filling."
+      "dish": "Steamed crab claw with egg white in Huadiao wine",
+      "why": "Oyster-shell salinity mirrors the sweetness of the crab, while vibrant acidity lifts the egg-white texture and aromatic Huadiao character."
     },
-    "whywins": "It supplies refined Chardonnay texture while flint and Granny Smith apple freshness keep premium shellfish precise."
+    "whywins": "Grand Cru concentration meets premium shellfish naturally, while oyster-shell salinity and vivid acidity preserve precision."
   },
   {
     "group": "Rose",
